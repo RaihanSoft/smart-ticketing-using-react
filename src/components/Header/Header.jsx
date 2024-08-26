@@ -1,7 +1,7 @@
 function Header() {
   return (
     <div>
-      <section className="bg-[url(./assets/banner.png)] bg-cover mt-2 rounded-3xl w-11/12 mx-auto bg-red-500 text-white bg-no-repeat bg-center">
+      <section className="bg-[url(./assets/banner.png)] bg-cover mt-2 rounded-3xl w-11/12 mx-auto text-white bg-no-repeat bg-center">
         <div className="text-center space-y-10 py-32">
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold">
             End-to-End Travel with <br />{" "}
