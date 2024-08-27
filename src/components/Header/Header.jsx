@@ -17,7 +17,7 @@ function Header() {
           </button>
         </div>
 
-        <div className="flex justify-center items-center gap-8 absolute -bottom-16 left-80">
+        <div className="flex hidden xl:flex  justify-center items-center gap-8 absolute -bottom-16 left-80">
           {/* card one  */}
           <div className="border-4 bg-white rounded-2xl p-5">
             <div>
