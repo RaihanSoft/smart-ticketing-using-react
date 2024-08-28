@@ -10,7 +10,7 @@ function PH() {
           testing features allow for a streamlined .</p>
 </div>
 
-<div className='flex justify-between border-4 my-10 p-10 bg-white rounded-2xl'>
+<div className='flex justify-between my-10 p-10 bg-white rounded-2xl'>
 
 
   {/* header div  */}
@@ -87,12 +87,11 @@ function PH() {
 
       {/* 2nd part  */}
 {/* main div  */}
-      <div className='mx-auto w-11/12 border-4 flex justify-between '>
+      <div className='mx-auto  w-11/12 py-5 bg-white rounded-2xl px-3 flex gap-10'>
 
         {/* left  */}
-        <div className='space-y-10'>
-
-          <h1>Select Your Seat</h1>
+        <div className='space-y-10 border-r-4 pr-12 border-green-400 border-dotted'>
+          <h1 className='font-bold text-2xl'>Select Your Seat</h1>
           <div className='flex justify-between'>
             <h1>Available</h1>
             <h1>Selected</h1>
@@ -194,30 +193,86 @@ function PH() {
 
 
         {/* right  */}
-        <div>
-          <h1>Select Your Seat</h1>
-
-          <div className='flex gap-10'>
-            <p>seat</p>
-            <p>class</p>
-            <p>price</p>
+       
+         <div className=''>
+            <h1 className='text-2xl font-bold'>Select Your Seat</h1>
+            <div className='bg-gray-200 mt-16 space-y-10 p-5 rounded-xl'>
+  
+            <div className='flex gap-40'>
+              <p className='text-xl font-bold'>seat</p>
+              <p className='text-xl font-bold' >class</p>
+              <p className='text-xl font-bold' >price</p>
+            </div>
+  
+            <div className='flex gap-40'>
+              <p className=''>C2</p>
+              <p>Economoy </p>
+              <p>550</p>
+            </div>
+  
+            <div className='flex gap-40'>
+              <p>C2</p>
+              <p>Economoy </p>
+              <p>550</p>
+            </div>
+  
+            <div className='flex gap-72 border-t-4 py-4 border-white'>
+              <p>Total Price</p>
+              <p>BDT 1100 </p>
+            </div>
+  
+            <div>
+              <input className='w-[400px] h-10 p-2' placeholder='Have any copupon?' type="text" name="" id="" />
+            </div>
+  
+            <div className='flex gap-72 border-t-4'>
+              <p>Grand Total</p>
+              <p>BDT 1100</p>
+            </div>
+  
+  
           </div>
+{/* second  */}
 
-          <div className='flex gap-10'>
-            <p>C2</p>
-            <p>Economoy </p>
-            <p>550</p>
+          <div className='space-y-10'>
+<div className='mt-10'>
+  
+              <h1>Passenger Name*</h1>
+              <div>
+                <input className='w-[400px] h-10 p-2' placeholder='Have any copupon?' type="text" name="" id="" />
+              </div>
+</div >
+
+<div >
+  
+              <h1>phone Number*</h1>
+              <div>
+                <input className='w-[400px] h-10 p-2' placeholder='Have any copupon?' type="text" name="" id="" />
+              </div>
+</div>
+<div>
+  
+              <h1>Email ID</h1>
+              <div>
+                <input className='w-[400px] h-10 p-2' placeholder='Have any copupon?' type="text" name="" id="" />
+              </div>
+</div>
+
+<div>
+  <button className='btn btn-success w-full text-white'>Next</button>
+</div>
+
+<div className='flex justify-center gap-20 font-bold underline'>
+  <p>Terms and Conditions</p>
+<p>Cancellation Policy </p>
+
+
+</div>
+
+
           </div>
-
-          <div className='flex gap-10'>
-            <p>C2</p>
-            <p>Economoy </p>
-            <p>550</p>
-          </div>
-
-
-        </div>
-
+  
+         </div>
 
 
 
@@ -225,14 +280,6 @@ function PH() {
 
 
       </div>
-
-
-
-
-
-
-
-
 
 
       
